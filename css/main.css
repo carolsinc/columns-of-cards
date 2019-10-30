@@ -1,0 +1,77 @@
+html {
+  box-sizing: border-box;
+  line-height: 1.5;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+h1 {
+  text-align: center;
+}
+
+img {
+  width: 100px;
+  display: block;
+  margin: auto;
+}
+
+.cards {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.cards ul {
+  margin: 0;
+}
+
+.cards li {
+  border-left:1px solid #000;
+  border-right: 1px solid #000;
+}
+
+.title {
+  font-weight: bold;
+  display: block;
+}
+
+.author {
+  font-style: italic;
+  margin: 0;
+}
+
+.summary {
+  margin: 0;
+}
+
+.card1 {
+  background-color: #f2f2f2;
+}
+
+.card2 {
+  background-color: #e2e2e2;
+}
+
+.card3 {
+  background-color: #ccc;
+}
+
+.card4 {
+  background-color: #aaa;
+}
+
+a {
+  text-decoration: none;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  background-color: #000;
+  color: #f2f2f2;
+}
+
+a:hover {
+  background-color: #999;
+
+}

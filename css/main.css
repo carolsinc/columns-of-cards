@@ -24,11 +24,11 @@ img {
   padding: 0;
 }
 
-.cards ul {
+.cards dl {
   margin: 0;
 }
 
-.cards li {
+.cards div {
   border-left:1px solid #000;
   border-right: 1px solid #000;
 }

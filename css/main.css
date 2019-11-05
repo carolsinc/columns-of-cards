@@ -28,7 +28,7 @@ img {
   margin: 0;
 }
 
-.cards div {
+.cards {
   border-left:1px solid #000;
   border-right: 1px solid #000;
 }
@@ -49,14 +49,17 @@ img {
 
 .card1 {
   background-color: #f2f2f2;
+  border-right: 1px solid #000;
 }
 
 .card2 {
   background-color: #e2e2e2;
+  border-right: 1px solid #000;
 }
 
 .card3 {
   background-color: #ccc;
+  border-right: 1px solid #000;
 }
 
 .card4 {
